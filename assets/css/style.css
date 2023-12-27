@@ -425,7 +425,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/anggi1.jpeg) center no-repeat;
+  background: url(../img/anggibackground.jpeg) center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -2036,7 +2036,7 @@ html, body {
 
 /* Sections background: Quote */
 .section-quote {
-  background: url(../img/anggi-quotes.jpeg) center no-repeat fixed;
+  background: url(../img/anggiquotes.jpeg) center no-repeat fixed;
 }
 
 .section-quote p {
