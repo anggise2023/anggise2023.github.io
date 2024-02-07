@@ -590,7 +590,7 @@ html, body {
 /* SITEMAIN
 ================================================== */
 .site-main {
-  background-color: #ffffff;
+  background-color: #1d7ad835;
   z-index: 1;
 }
 
@@ -2036,7 +2036,8 @@ html, body {
 
 /* Sections background: Quote */
 .section-quote {
-  background: url(../img/anggiquotes.jpeg) center no-repeat fixed;
+  background: url(../img/anggi-quotes.jpeg) center no-repeat fixed;
+  background-size: cover;
 }
 
 .section-quote p {
