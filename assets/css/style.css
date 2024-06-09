@@ -2391,3 +2391,18 @@ textarea.form-control {
     width: 36px;
   }
 }
+.section-about .col-md-6 img {
+  max-width: 100%; /* Memastikan gambar responsif */
+  height: auto; /* Menjaga aspek rasio gambar */
+}
+
+/* Menambahkan gaya untuk video agar responsif dan sesuai dengan layout */
+.section-about .col-md-6 video {
+  width: 100%; /* Mengatur lebar video agar sesuai dengan kolom */
+  height: auto; /* Menjaga aspek rasio video */
+}
+
+/* Menambahkan gaya untuk membuat teks rata kanan dan kiri */
+.section-about .col-md-6.text-left p.description {
+  text-align: justify; /* Menerapkan justifikasi pada teks */
+}
