@@ -791,6 +791,7 @@ html, body {
 }
 
 /* Section: About */
+
 .section-about .row {
   margin-top: 70px;
 }
@@ -2149,6 +2150,7 @@ html, body {
 }
 
 /* Section: Contact */
+
 .section-contact .container {
   max-width: 770px;
 }
@@ -2406,3 +2408,203 @@ textarea.form-control {
 .section-about .col-md-6.text-left p.description {
   text-align: justify; /* Menerapkan justifikasi pada teks */
 }
+
+/* mengubah tentang anggi */
+/* Section - Intro */
+#intro {
+  padding: 50px 0;
+  background-color: #f8f9fa; /* Warna latar belakang lembut */
+}
+
+#intro h2 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.section-subtitle span {
+  font-style: italic;
+  color: #5e72e4; /* Warna highlight untuk nama */
+}
+
+.description {
+  line-height: 1.7;
+  color: #666; /* Warna teks yang nyaman dibaca */
+}
+
+.mrb-45 {
+  margin-bottom: 45px;
+}
+
+#intro img {
+  max-width: 100%;
+  border-radius: 10px; /* Membuat gambar lebih halus dengan sudut melengkung */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan halus */
+}
+
+@media (min-width: 768px) {
+  /* Mengatur agar konten tetap proporsional pada layar yang lebih besar */
+  #intro .col-md-6 {
+      padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Mengatur agar teks dan gambar lebih responsif pada layar kecil */
+  .description {
+      font-size: inherit; /* Menjaga ukuran teks sesuai aslinya */
+  }
+}
+
+
+/* PENGALAMAN PEKERJAAN */
+/* Section - About */
+/* Section - About */
+#about {
+  padding: 50px 0;
+  background-color: #f4f5f7; /* Warna latar belakang yang lembut */
+}
+
+#about h2 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.section-subtitle span {
+  font-style: italic;
+  color: #5e72e4;
+}
+
+.feature-about {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px; /* Membuat sudut melengkung */
+  background-color: #fff; /* Warna latar belakang putih untuk kontras */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi halus saat hover */
+  margin-bottom: 30px; /* Spasi antar kolom */
+  font-size: inherit; /* Ukuran font tetap mengikuti HTML aslinya */
+}
+
+.feature-about:hover {
+  transform: translateY(-10px); /* Efek hover agar elemen sedikit naik */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar saat hover */
+}
+
+.rectangle {
+  background-color: #5e72e4; /* Warna dasar untuk ikon */
+  color: white;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px auto;
+  border-radius: 10px; /* Membuat sudut melengkung */
+}
+
+.rectangle i {
+  font-size: 2.5rem; /* Ukuran ikon tetap besar */
+}
+
+.feature-about h3 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.feature-about p {
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  .feature-about {
+      margin-bottom: 20px;
+      padding: 15px;
+  }
+
+  .rectangle {
+      width: 60px;
+      height: 60px;
+  }
+
+  .rectangle i {
+      font-size: 2rem;
+  }
+}
+
+
+
+/* KONTAK */
+/* Section - Contact */
+#contact {
+  padding: 50px 0;
+  background-color: #f4f5f7;
+  text-align: center;
+}
+
+#contact h2 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section-subtitle span {
+  font-style: italic;
+  color: #5e72e4;
+}
+
+/* Social Networks styling */
+.section-networks {
+  padding: 20px 0;
+}
+
+.section-networks .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Agar bisa menyesuaikan dengan layar lebih kecil */
+}
+
+.section-networks .rectangle {
+  background-color: #5e72e4;
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px; /* Membuat sudut melengkung */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.section-networks .rectangle i {
+  font-size: 1.8rem; /* Ukuran ikon */
+}
+
+.section-networks .rectangle:hover {
+  transform: translateY(-5px); /* Efek hover agar elemen sedikit naik */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Efek bayangan pada hover */
+}
+
+/* Responsif untuk layar lebih kecil */
+@media (max-width: 768px) {
+  .section-networks .rectangle {
+      width: 50px;
+      height: 50px;
+  }
+
+  .section-networks .rectangle i {
+      font-size: 1.5rem;
+  }
+}
+
+
+/* PENDIDIKAN */
+
